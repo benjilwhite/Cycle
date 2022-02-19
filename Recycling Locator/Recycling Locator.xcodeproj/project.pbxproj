@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1CFD52B27C180C600CDCBBE /* Recycling_LocatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CFD52A27C180C600CDCBBE /* Recycling_LocatorApp.swift */; };
+		B1CFD52D27C180C600CDCBBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CFD52C27C180C600CDCBBE /* ContentView.swift */; };
+		B1CFD52F27C180C800CDCBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CFD52E27C180C800CDCBBE /* Assets.xcassets */; };
+		B1CFD53227C180C800CDCBBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CFD53127C180C800CDCBBE /* Preview Assets.xcassets */; };
+		B1CFD53C27C180C800CDCBBE /* Recycling_LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CFD53B27C180C800CDCBBE /* Recycling_LocatorTests.swift */; };
+		B1CFD54627C180C900CDCBBE /* Recycling_LocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CFD54527C180C900CDCBBE /* Recycling_LocatorUITests.swift */; };
+		B1CFD54827C180C900CDCBBE /* Recycling_LocatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CFD54727C180C900CDCBBE /* Recycling_LocatorUITestsLaunchTests.swift */; };
+		B1CFD55727C1811C00CDCBBE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CFD55627C1811C00CDCBBE /* MapKit.framework */; };
+		B1CFD59E27C1ACD600CDCBBE /* locationFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CFD59D27C1ACD600CDCBBE /* locationFinder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1CFD53827C180C800CDCBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1CFD51F27C180C600CDCBBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1CFD52627C180C600CDCBBE;
+			remoteInfo = "Recycling Locator";
+		};
+		B1CFD54227C180C900CDCBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1CFD51F27C180C600CDCBBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1CFD52627C180C600CDCBBE;
+			remoteInfo = "Recycling Locator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1CFD52727C180C600CDCBBE /* Recycling Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recycling Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CFD52A27C180C600CDCBBE /* Recycling_LocatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recycling_LocatorApp.swift; sourceTree = "<group>"; };
+		B1CFD52C27C180C600CDCBBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1CFD52E27C180C800CDCBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1CFD53127C180C800CDCBBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1CFD53727C180C800CDCBBE /* Recycling LocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recycling LocatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CFD53B27C180C800CDCBBE /* Recycling_LocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recycling_LocatorTests.swift; sourceTree = "<group>"; };
+		B1CFD54127C180C900CDCBBE /* Recycling LocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recycling LocatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CFD54527C180C900CDCBBE /* Recycling_LocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recycling_LocatorUITests.swift; sourceTree = "<group>"; };
+		B1CFD54727C180C900CDCBBE /* Recycling_LocatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recycling_LocatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1CFD55427C1811C00CDCBBE /* Recycling-Locator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Recycling-Locator-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B1CFD55627C1811C00CDCBBE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B1CFD59727C19A1E00CDCBBE /* Recycling Locator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recycling Locator-Bridging-Header.h"; sourceTree = "<group>"; };
+		B1CFD59D27C1ACD600CDCBBE /* locationFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationFinder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1CFD52427C180C600CDCBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CFD55727C1811C00CDCBBE /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CFD53427C180C800CDCBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CFD53E27C180C800CDCBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1CFD51E27C180C600CDCBBE = {
+			isa = PBXGroup;
+			children = (
+				B1CFD52927C180C600CDCBBE /* Recycling Locator */,
+				B1CFD53A27C180C800CDCBBE /* Recycling LocatorTests */,
+				B1CFD54427C180C900CDCBBE /* Recycling LocatorUITests */,
+				B1CFD52827C180C600CDCBBE /* Products */,
+				B1CFD55527C1811C00CDCBBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1CFD52827C180C600CDCBBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1CFD52727C180C600CDCBBE /* Recycling Locator.app */,
+				B1CFD53727C180C800CDCBBE /* Recycling LocatorTests.xctest */,
+				B1CFD54127C180C900CDCBBE /* Recycling LocatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1CFD52927C180C600CDCBBE /* Recycling Locator */ = {
+			isa = PBXGroup;
+			children = (
+				B1CFD55427C1811C00CDCBBE /* Recycling-Locator-Info.plist */,
+				B1CFD52A27C180C600CDCBBE /* Recycling_LocatorApp.swift */,
+				B1CFD52C27C180C600CDCBBE /* ContentView.swift */,
+				B1CFD52E27C180C800CDCBBE /* Assets.xcassets */,
+				B1CFD53027C180C800CDCBBE /* Preview Content */,
+				B1CFD59727C19A1E00CDCBBE /* Recycling Locator-Bridging-Header.h */,
+				B1CFD59D27C1ACD600CDCBBE /* locationFinder.swift */,
+			);
+			path = "Recycling Locator";
+			sourceTree = "<group>";
+		};
+		B1CFD53027C180C800CDCBBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1CFD53127C180C800CDCBBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1CFD53A27C180C800CDCBBE /* Recycling LocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1CFD53B27C180C800CDCBBE /* Recycling_LocatorTests.swift */,
+			);
+			path = "Recycling LocatorTests";
+			sourceTree = "<group>";
+		};
+		B1CFD54427C180C900CDCBBE /* Recycling LocatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1CFD54527C180C900CDCBBE /* Recycling_LocatorUITests.swift */,
+				B1CFD54727C180C900CDCBBE /* Recycling_LocatorUITestsLaunchTests.swift */,
+			);
+			path = "Recycling LocatorUITests";
+			sourceTree = "<group>";
+		};
+		B1CFD55527C1811C00CDCBBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1CFD55627C1811C00CDCBBE /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1CFD52627C180C600CDCBBE /* Recycling Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1CFD54B27C180C900CDCBBE /* Build configuration list for PBXNativeTarget "Recycling Locator" */;
+			buildPhases = (
+				B1CFD52327C180C600CDCBBE /* Sources */,
+				B1CFD52427C180C600CDCBBE /* Frameworks */,
+				B1CFD52527C180C600CDCBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recycling Locator";
+			productName = "Recycling Locator";
+			productReference = B1CFD52727C180C600CDCBBE /* Recycling Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1CFD53627C180C800CDCBBE /* Recycling LocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1CFD54E27C180C900CDCBBE /* Build configuration list for PBXNativeTarget "Recycling LocatorTests" */;
+			buildPhases = (
+				B1CFD53327C180C800CDCBBE /* Sources */,
+				B1CFD53427C180C800CDCBBE /* Frameworks */,
+				B1CFD53527C180C800CDCBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1CFD53927C180C800CDCBBE /* PBXTargetDependency */,
+			);
+			name = "Recycling LocatorTests";
+			productName = "Recycling LocatorTests";
+			productReference = B1CFD53727C180C800CDCBBE /* Recycling LocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1CFD54027C180C800CDCBBE /* Recycling LocatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1CFD55127C180C900CDCBBE /* Build configuration list for PBXNativeTarget "Recycling LocatorUITests" */;
+			buildPhases = (
+				B1CFD53D27C180C800CDCBBE /* Sources */,
+				B1CFD53E27C180C800CDCBBE /* Frameworks */,
+				B1CFD53F27C180C800CDCBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1CFD54327C180C900CDCBBE /* PBXTargetDependency */,
+			);
+			name = "Recycling LocatorUITests";
+			productName = "Recycling LocatorUITests";
+			productReference = B1CFD54127C180C900CDCBBE /* Recycling LocatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1CFD51F27C180C600CDCBBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B1CFD52627C180C600CDCBBE = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					B1CFD53627C180C800CDCBBE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B1CFD52627C180C600CDCBBE;
+					};
+					B1CFD54027C180C800CDCBBE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = B1CFD52627C180C600CDCBBE;
+					};
+				};
+			};
+			buildConfigurationList = B1CFD52227C180C600CDCBBE /* Build configuration list for PBXProject "Recycling Locator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1CFD51E27C180C600CDCBBE;
+			productRefGroup = B1CFD52827C180C600CDCBBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1CFD52627C180C600CDCBBE /* Recycling Locator */,
+				B1CFD53627C180C800CDCBBE /* Recycling LocatorTests */,
+				B1CFD54027C180C800CDCBBE /* Recycling LocatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1CFD52527C180C600CDCBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CFD53227C180C800CDCBBE /* Preview Assets.xcassets in Resources */,
+				B1CFD52F27C180C800CDCBBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CFD53527C180C800CDCBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CFD53F27C180C800CDCBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1CFD52327C180C600CDCBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CFD59E27C1ACD600CDCBBE /* locationFinder.swift in Sources */,
+				B1CFD52D27C180C600CDCBBE /* ContentView.swift in Sources */,
+				B1CFD52B27C180C600CDCBBE /* Recycling_LocatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CFD53327C180C800CDCBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CFD53C27C180C800CDCBBE /* Recycling_LocatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CFD53D27C180C800CDCBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CFD54827C180C900CDCBBE /* Recycling_LocatorUITestsLaunchTests.swift in Sources */,
+				B1CFD54627C180C900CDCBBE /* Recycling_LocatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1CFD53927C180C800CDCBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1CFD52627C180C600CDCBBE /* Recycling Locator */;
+			targetProxy = B1CFD53827C180C800CDCBBE /* PBXContainerItemProxy */;
+		};
+		B1CFD54327C180C900CDCBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1CFD52627C180C600CDCBBE /* Recycling Locator */;
+			targetProxy = B1CFD54227C180C900CDCBBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1CFD54927C180C900CDCBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1CFD54A27C180C900CDCBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1CFD54C27C180C900CDCBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Recycling Locator/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y8V43BT5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recycling-Locator-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "treehacks22.Recycling-Locator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Recycling Locator/Recycling Locator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1CFD54D27C180C900CDCBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Recycling Locator/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y8V43BT5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Recycling-Locator-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "treehacks22.Recycling-Locator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Recycling Locator/Recycling Locator-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1CFD54F27C180C900CDCBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y8V43BT5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "treehacks22.Recycling-LocatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recycling Locator.app/Recycling Locator";
+			};
+			name = Debug;
+		};
+		B1CFD55027C180C900CDCBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y8V43BT5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "treehacks22.Recycling-LocatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recycling Locator.app/Recycling Locator";
+			};
+			name = Release;
+		};
+		B1CFD55227C180C900CDCBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y8V43BT5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "treehacks22.Recycling-LocatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Recycling Locator";
+			};
+			name = Debug;
+		};
+		B1CFD55327C180C900CDCBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y8V43BT5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "treehacks22.Recycling-LocatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Recycling Locator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1CFD52227C180C600CDCBBE /* Build configuration list for PBXProject "Recycling Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1CFD54927C180C900CDCBBE /* Debug */,
+				B1CFD54A27C180C900CDCBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1CFD54B27C180C900CDCBBE /* Build configuration list for PBXNativeTarget "Recycling Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1CFD54C27C180C900CDCBBE /* Debug */,
+				B1CFD54D27C180C900CDCBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1CFD54E27C180C900CDCBBE /* Build configuration list for PBXNativeTarget "Recycling LocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1CFD54F27C180C900CDCBBE /* Debug */,
+				B1CFD55027C180C900CDCBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1CFD55127C180C900CDCBBE /* Build configuration list for PBXNativeTarget "Recycling LocatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1CFD55227C180C900CDCBBE /* Debug */,
+				B1CFD55327C180C900CDCBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1CFD51F27C180C600CDCBBE /* Project object */;
+}
